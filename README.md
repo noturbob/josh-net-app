@@ -1915,7 +1915,7 @@ tests/
         <sub><b>Piyush</b></sub>
       </a><br />
       <sub>@whyismeleige</sub><br />
-      <sub>Backend Development</sub>
+      <sub>Full Stack Development</sub>
     </td>
     <td align="center">
       <a href="https://github.com/noturbob">
