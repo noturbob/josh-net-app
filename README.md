@@ -1,691 +1,1379 @@
-<p align="center"># 🎓 JoshNet
-
-  <img src="https://img.shields.io/badge/JoshNet-V3-6366f1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTIyIDEwdjZNMiAxMGw0LTZoMTJsNCA2Ii8+PHBhdGggZD0iTTYgMTR2OCIvPjxwYXRoIGQ9Ik0xOCAxNHY4Ii8+PHBhdGggZD0iTTEwIDE0djgiLz48cGF0aCBkPSJNMTQgMTR2OCIvPjwvc3ZnPg==" alt="JoshNet Logo"/>
-
-</p>> A next-generation campus ecosystem that brings your entire college community together in one intelligent, role-aware mobile platform.
+<div align="center"><p align="center"># 🎓 JoshNet
 
 
 
-<h1 align="center">🎓 JoshNet - Campus Ecosystem Platform</h1>[![React Native](https://img.shields.io/badge/React%20Native-Expo%2052-blue.svg)](https://expo.dev/)
+# 🎓 JoshNet  <img src="https://img.shields.io/badge/JoshNet-V3-6366f1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTIyIDEwdjZNMiAxMGw0LTZoMTJsNCA2Ii8+PHBhdGggZD0iTTYgMTR2OCIvPjxwYXRoIGQ9Ik0xOCAxNHY4Ii8+PHBhdGggZD0iTTEwIDE0djgiLz48cGF0aCBkPSJNMTQgMTR2OCIvPjwvc3ZnPg==" alt="JoshNet Logo"/>
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
 
-<p align="center">[![NativeWind](https://img.shields.io/badge/NativeWind-v4-38bdf8)](https://www.nativewind.dev/)
+
+### A Next-Generation Campus Ecosystem Platform</p>> A next-generation campus ecosystem that brings your entire college community together in one intelligent, role-aware mobile platform.
+
+
+
+*Bringing your entire college community together in one intelligent, role-aware mobile application*
+
+
+
+<br/><h1 align="center">🎓 JoshNet - Campus Ecosystem Platform</h1>[![React Native](https://img.shields.io/badge/React%20Native-Expo%2052-blue.svg)](https://expo.dev/)
+
+
+
+[![React Native](https://img.shields.io/badge/React_Native-Expo_54-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://expo.dev/)[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
+
+[![Node.js](https://img.shields.io/badge/Node.js-Express_5-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+
+[![MongoDB](https://img.shields.io/badge/MongoDB-8.x-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com/)<p align="center">[![NativeWind](https://img.shields.io/badge/NativeWind-v4-38bdf8)](https://www.nativewind.dev/)
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org/)
 
   <strong>A next-generation campus ecosystem bringing your entire college community together in one intelligent, role-aware mobile platform.</strong>[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-</p>
+[![Socket.IO](https://img.shields.io/badge/Socket.IO-4.x-010101?style=flat-square&logo=socket.io)](https://socket.io/)
 
----
+[![Redis](https://img.shields.io/badge/Redis-5.x-DC382D?style=flat-square&logo=redis&logoColor=white)](https://redis.io/)</p>
 
-<p align="center">
+[![AWS S3](https://img.shields.io/badge/AWS_S3-Storage-FF9900?style=flat-square&logo=amazons3&logoColor=white)](https://aws.amazon.com/s3/)
 
-  <a href="#features">Features</a> •## ✨ What is JoshNet?
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)---
 
-  <a href="#tech-stack">Tech Stack</a> •
 
-  <a href="#architecture">Architecture</a> •JoshNet V3 transforms how students, faculty, alumni, and administrators interact on campus. Think of it as Discord meets your student portal—featuring real-time chat, AI-powered assistance, academic tracking, and role-specific tools all wrapped in a beautiful, intuitive interface.
 
-  <a href="#installation">Installation</a> •
+<br/><p align="center">
 
-  <a href="#api-documentation">API Docs</a> •### 🎯 Key Highlights
 
-  <a href="#contributors">Contributors</a>
 
-</p>- **🔐 Role-Based Architecture** - Purpose-built experiences for Students, Faculty, Alumni, and Admins
+[Features](#-features) · [Tech Stack](#-tech-stack) · [Installation](#-installation--setup) · [API Docs](#-api-documentation) · [Contributors](#-contributors)  <a href="#features">Features</a> •## ✨ What is JoshNet?
 
-- **💬 Real-Time Communication** - Discord-inspired channels for classes, committees, and departments  
 
-<p align="center">- **🤖 Josephine AI Assistant** - Your personal campus AI companion
 
-  <img src="https://img.shields.io/badge/React%20Native-Expo%2054-61DAFB?style=flat-square&logo=react" alt="React Native"/>- **📊 Smart Analytics** - Track attendance, grades, and eligibility in real-time
+<br/>  <a href="#tech-stack">Tech Stack</a> •
 
-  <img src="https://img.shields.io/badge/Node.js-Express%205-339933?style=flat-square&logo=node.js" alt="Node.js"/>- **📱 Native Performance** - Smooth, responsive experience built with React Native
 
-  <img src="https://img.shields.io/badge/MongoDB-8.x-47A248?style=flat-square&logo=mongodb" alt="MongoDB"/>
 
-  <img src="https://img.shields.io/badge/Socket.IO-4.x-010101?style=flat-square&logo=socket.io" alt="Socket.IO"/>---
+---  <a href="#architecture">Architecture</a> •JoshNet V3 transforms how students, faculty, alumni, and administrators interact on campus. Think of it as Discord meets your student portal—featuring real-time chat, AI-powered assistance, academic tracking, and role-specific tools all wrapped in a beautiful, intuitive interface.
 
-  <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript" alt="TypeScript"/>
+
+
+</div>  <a href="#installation">Installation</a> •
+
+
+
+## 📖 About The Project  <a href="#api-documentation">API Docs</a> •### 🎯 Key Highlights
+
+
+
+**JoshNet V3** is a comprehensive campus ecosystem mobile application developed as a **Final Year Project** for the **BBA IT** program at **St. Joseph's Degree & PG College, Hyderabad**.  <a href="#contributors">Contributors</a>
+
+
+
+Think of it as **Discord meets your student portal** — featuring real-time chat, AI-powered assistance, academic tracking, and role-specific tools all wrapped in a beautiful, intuitive interface.</p>- **🔐 Role-Based Architecture** - Purpose-built experiences for Students, Faculty, Alumni, and Admins
+
+
+
+<br/>- **💬 Real-Time Communication** - Discord-inspired channels for classes, committees, and departments  
+
+
+
+### 🎯 Problem Statement<p align="center">- **🤖 Josephine AI Assistant** - Your personal campus AI companion
+
+
+
+> Traditional campus management systems are fragmented — students juggle multiple apps for attendance, materials, communication, and academic tracking.  <img src="https://img.shields.io/badge/React%20Native-Expo%2054-61DAFB?style=flat-square&logo=react" alt="React Native"/>- **📊 Smart Analytics** - Track attendance, grades, and eligibility in real-time
+
+
+
+### 💡 Our Solution  <img src="https://img.shields.io/badge/Node.js-Express%205-339933?style=flat-square&logo=node.js" alt="Node.js"/>- **📱 Native Performance** - Smooth, responsive experience built with React Native
+
+
+
+A unified mobile-first platform with:  <img src="https://img.shields.io/badge/MongoDB-8.x-47A248?style=flat-square&logo=mongodb" alt="MongoDB"/>
+
+- 🗨️ Real-time communication channels
+
+- 🤖 AI assistant for instant help  <img src="https://img.shields.io/badge/Socket.IO-4.x-010101?style=flat-square&logo=socket.io" alt="Socket.IO"/>---
+
+- 📊 Live attendance and academic tracking
+
+- 👥 Role-specific dashboards  <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript" alt="TypeScript"/>
+
+- 📁 Secure file sharing
 
   <img src="https://img.shields.io/badge/Redis-5.x-DC382D?style=flat-square&logo=redis" alt="Redis"/>## 🚀 Tech Stack
 
+<br/>
+
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License"/>
-
-</p>| Category | Technology |
-
-|----------|-----------|
-
----| **Framework** | React Native (Expo SDK 52) |
-
-| **Language** | TypeScript |
-
-## 📋 Table of Contents| **Styling** | NativeWind v4 (Tailwind CSS 3.4) + clsx + tailwind-merge |
-
-| **Navigation** | React Navigation v6 (Stack, Drawer, Bottom Tabs) |
-
-- [About The Project](#-about-the-project)| **Charts** | React Native Chart Kit |
-
-- [Features](#-features)| **Icons** | Expo Vector Icons (Ionicons, MaterialCommunityIcons) |
-
-- [Tech Stack](#-tech-stack)| **Architecture** | Feature-Based with Role-Based Access Control (RBAC) |
-
-- [System Architecture](#-system-architecture)
-
-- [Project Structure](#-project-structure)---
-
-- [Database Schema](#-database-schema)
-
-- [API Documentation](#-api-documentation)## 📂 Project Structure
-
-- [Frontend Modules](#-frontend-modules)
-
-- [Backend Modules](#-backend-modules)```
-
-- [Real-Time Features](#-real-time-features)src/
-
-- [Installation & Setup](#-installation--setup)├── app/                      # Application entry point
-
-- [Environment Variables](#-environment-variables)├── components/            
-
-- [Running the Application](#-running-the-application)│   ├── ui/                   # Reusable primitives (Button, Input, Card)
-
-- [Testing](#-testing)│   └── shared/               # Complex shared components
-
-- [Future Roadmap](#-future-roadmap)├── context/                  # Global state management
-
-- [Contributors](#-contributors)│   ├── AuthContext.tsx       # Authentication & role management
-
-- [Acknowledgments](#-acknowledgments)│   └── UserContext.tsx       # User profile data
-
-- [License](#-license)├── features/                 # Feature modules by user role
-
-│   ├── auth/                 # Login, Signup, OTP, Password Reset
-
----│   ├── student/              # Student-specific features
-
-│   │   ├── screens/          # Dashboard, Attendance, Materials
-
-## 🎯 About The Project│   │   └── components/       # Student UI components
-
-│   ├── faculty/              # Faculty workspace & tools
-
-**JoshNet V3** is a comprehensive campus ecosystem mobile application developed as a **Final Year Project** for the **BBA IT (Bachelor of Business Administration in Information Technology)** program at **St. Joseph's Degree & PG College, Hyderabad**.│   ├── alumni/               # Alumni networking & mentorship
-
-│   └── admin/                # Administration & analytics
-
-The application transforms how students, faculty, alumni, and administrators interact on campus by combining:├── lib/                      # Utility functions
-
-- **Discord-inspired** real-time communication│   └── utils.ts              # cn() class merger & helpers
-
-- **AI-powered** assistance with Josephine (Claude AI)├── navigation/               # Navigation configuration
-
-- **Academic management** tools│   ├── RootNavigator.tsx     # Main routing logic
-
-- **Role-based access control** for secure, personalized experiences│   └── CustomDrawer.tsx      # Discord-style sidebar
-
-└── services/                 # API service layer
-
-### 🎯 Problem Statement```
-
-
-
-Traditional campus management systems are fragmented—students use multiple apps for attendance, materials, communication, and academic tracking. JoshNet unifies these into a single, intelligent platform.---
-
-
-
-### 💡 Solution## 👥 User Roles & Features
-
-
-
-A mobile-first platform with:### 🎒 Student Portal
-
-- Unified communication channels
-
-- AI assistant for instant helpThe student experience is designed around community and academic success.
-
-- Real-time attendance and academic tracking
-
-- Role-specific dashboards**Features:**
-
-- Secure file sharing and material management- **Discord-Style Navigation** - Intuitive sidebar with servers for Classes, Committees, and Alumni connections
-
-- **Josephine AI** - Your 24/7 AI assistant for campus questions, homework help, and guidance
-
----- **Materials Repository** - Organized accordion view: Semesters → Subjects → PDFs/Resources
-
-- **Attendance Dashboard** - Visual heatmaps with 75% eligibility calculator and predictions
-
-## ✨ Features- **Academic Profile** - Real-time CGPA tracking, attendance stats, and performance insights
-
-
-
-### 🔐 Authentication & Security### 👨‍🏫 Faculty Workspace
-
-| Feature | Description |
-
-|---------|-------------|Streamlined tools for educators to focus on teaching, not administration.
-
-| **JWT Authentication** | Secure token-based authentication with access & refresh tokens |
-
-| **OAuth 2.0** | Google Sign-In integration via Passport.js |**Features:**
-
-| **OTP Verification** | Email-based OTP for account verification and password reset |- **Smart Attendance** - Quick mark entry with class rosters and analytics
-
-| **Two-Factor Authentication** | Additional security layer for sensitive operations |- **Marks Management** - Internal assessment entry (IA1, IA2) with auto-calculation
-
-| **Account Lockout** | Automatic lockout after failed login attempts |- **Interactive Timetable** - Day-to-day lecture schedule with room assignments
-
-| **Session Management** | Track and manage active sessions across devices |- **Department Communication** - Dedicated chat rooms for faculty collaboration
-
-| **Geo-location Tracking** | Login location tracking for security |- **Class Channels** - Direct communication with student batches
-
-
-
-### 💬 Real-Time Communication### 🎓 Alumni Network
-
-| Feature | Description |
-
-|---------|-------------|Stay connected with your alma mater and give back to the community.
-
-| **Servers & Channels** | Discord-style server organization with text channels |
-
-| **Direct Messaging** | Private conversations between users |**Features:**
-
-| **Friend System** | Send, accept, reject friend requests |- **Batch Connections** - Reconnect with classmates through batch-specific channels
-
-| **Typing Indicators** | Real-time typing status in channels |- **Mentorship Program** - Guide current students in their career journey
-
-| **Message Features** | Edit, delete, reply, forward messages |- **Event Hub** - Alumni meetups, reunions, and fundraising campaigns
-
-| **File Attachments** | Share images, documents, and files in chat |- **Career Network** - Job postings and professional networking
-
-| **User Presence** | Online/offline status tracking |
-
-### 👔 Admin Dashboard
-
-### 🤖 Josephine AI Assistant
-
-| Feature | Description |Powerful oversight and management tools for campus administrators.
-
-|---------|-------------|
-
-| **AI Chat** | Powered by Anthropic Claude API |**Features:**
-
-| **Context Awareness** | Understands campus-related queries |- **System Analytics** - Real-time metrics, user activity logs, and engagement stats
-
-| **Chat History** | Persistent conversation storage |- **Global Announcements** - Broadcast important updates to the entire campus
-
-| **File Analysis** | Upload documents for AI analysis |- **User Management** - Verify accounts, manage permissions, and moderate content
-
-| **Starred Chats** | Bookmark important conversations |- **Feedback Center** - Review and respond to student/faculty feedback
-
-
-
-### 📚 Academic Materials---
-
-| Feature | Description |
-
-|---------|-------------|## 🔐 Role-Based Access Control (RBAC)
-
-| **Hierarchical Organization** | Semester → Subject → Materials structure |
-
-| **File Management** | Upload, download, copy, move, delete files |JoshNet uses a "Traffic Cop" navigation strategy to ensure secure, role-appropriate experiences. 
-
-| **AWS S3 Storage** | Secure cloud storage for all materials |
-
-| **Bulk Operations** | Download multiple files as ZIP |**How it works:**
-
-| **Access Control** | Role-based material access |1. User logs in and receives a role token (`STUDENT`, `FACULTY`, `ALUMNI`, `ADMIN`)
-
-2. `RootNavigator.tsx` acts as a security gateway
-
-### 📊 Attendance & Analytics3. Role-specific navigator is rendered (e.g., `StudentNavigator`)
-
-| Feature | Description |4. All screens and features are scoped to that role—no cross-contamination
-
-|---------|-------------|
-
-| **Real-time Tracking** | Current attendance percentage |> **Security Note:** A user logged in as Student cannot access Faculty or Admin screens, even by manipulating routes.
-
-| **Eligibility Calculator** | 75% attendance requirement checker |
-
-| **Visual Heatmaps** | Calendar-based attendance visualization |---
-
-| **Predictions** | Attendance prediction algorithms |
-
-| **Web Scraping** | Automated data from college portal |## 🛠️ Getting Started
-
-
-
-### 👥 User Roles### Prerequisites
-
-| Role | Capabilities |
-
-|------|--------------|- **Node.js** (LTS version recommended)
-
-| **Student** | Chat, materials, attendance, AI assistant, friends |- **Expo CLI** (`npm install -g expo-cli`)
-
-| **Faculty** | Attendance marking, material upload, class management |- **iOS Simulator** or **Android Emulator** (or use Expo Go on your phone)
-
-| **Alumni** | Networking, mentorship, batch connections |
-
-| **Admin** | User management, analytics, system configuration |### Installation
-
-
-
----1. **Clone the repository**
-
-   ```bash
-
-## 🛠 Tech Stack   git clone https://github.com/noturbob/josh-net-app.git
-
-   cd josh-net-app/frontend
-
-### Backend Technologies   ```
-
-
-
-| Category | Technology | Version | Purpose |2. **Install dependencies**  
-
-|----------|------------|---------|---------|   We use `--legacy-peer-deps` to resolve peer dependency conflicts between NativeWind v4 and Tailwind 3.4.
-
-| **Runtime** | Node.js | 20.x LTS | JavaScript runtime |   ```bash
-
-| **Framework** | Express.js | 5.x | Web application framework |   npm install --legacy-peer-deps
-
-| **Database** | MongoDB | 8.x | Primary data storage |   ```
-
-| **ODM** | Mongoose | 8.19.x | MongoDB object modeling |
-
-| **Cache** | Redis | 5.x | Session & data caching |3. **Install Expo modules**
-
-| **Real-time** | Socket.IO | 4.8.x | WebSocket communication |   ```bash
-
-| **Authentication** | Passport.js | 0.7.x | OAuth & authentication |   npx expo install react-native-reanimated react-native-safe-area-context \
-
-| **JWT** | jsonwebtoken | 9.x | Token generation & verification |     react-native-gesture-handler react-native-screens react-native-svg
-
-| **File Storage** | AWS S3 | SDK 3.x | Cloud file storage |   ```
-
-| **Email** | Nodemailer | 7.x | Email notifications |
-
-| **AI** | Anthropic API | Claude 3.5 | AI chatbot integration |4. **Start the development server**  
-
-| **Web Scraping** | Puppeteer | 24.x | Browser automation |   Always use `--clear` to reset the CSS compiler cache.
-
-| **Scraping Parser** | Cheerio | 1.x | HTML parsing |   ```bash
-
-   npx expo start --clear
-
-### Frontend Technologies   ```
-
-
-
-| Category | Technology | Version | Purpose |5. **Run on device**
-
-|----------|------------|---------|---------|   - Press `i` for iOS Simulator
-
-| **Framework** | React Native | 0.81.x | Cross-platform mobile |   - Press `a` for Android Emulator
-
-| **Platform** | Expo | SDK 54 | Development & build tools |   - Scan QR code with Expo Go app on your phone
-
-| **Language** | TypeScript | 5.9.x | Type-safe JavaScript |
-
-| **Styling** | NativeWind | 4.2.x | Tailwind CSS for RN |---
-
-| **CSS** | Tailwind CSS | 3.4.x | Utility-first CSS |
-
-| **Navigation** | React Navigation | 7.x | App navigation |## 🎨 Styling Guide
-
-| **State** | React Context | - | Global state management |
-
-| **HTTP Client** | Fetch API | - | API communication |JoshNet uses a **shadcn-inspired design system** built on NativeWind (Tailwind for React Native).
-
-| **WebSocket** | Socket.IO Client | 4.7.x | Real-time features |
-
-| **Storage** | AsyncStorage | 2.1.x | Local data persistence |### The `cn()` Utility
-
-| **File Picker** | Expo Document Picker | 13.1.x | File selection |
-
-| **Icons** | Expo Vector Icons | 14.x | Icon library |Our secret weapon for dynamic, mergeable class names:
-
-
-
----```tsx
-
-import { cn } from '@/lib/utils';
-
-## 🏗 System Architecture
-
-// Base component with overridable styles
-
-### High-Level Architecturefunction Card({ className, ...props }) {
-
-  return (
-
-```    <View 
-
-┌─────────────────────────────────────────────────────────────────────────┐      className={cn(
-
-│                           CLIENT LAYER                                   │        "bg-zinc-900 rounded-xl p-4 shadow-lg",
-
-│  ┌─────────────────────────────────────────────────────────────────┐   │        className // Allows parent to override
-
-│  │                    React Native (Expo)                           │   │      )}
-
-│  │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────────────┐│   │      {...props}
-
-│  │  │   Auth   │  │  Server  │  │  Inbox   │  │    Josephine     ││   │    />
-
-│  │  │ Context  │  │ Context  │  │ Context  │  │     Context      ││   │  );
-
-│  │  └──────────┘  └──────────┘  └──────────┘  └──────────────────┘│   │}
-
-│  │  ┌────────────────────────────────────────────────────────────┐│   │
-
-│  │  │              Service Layer (API + Socket)                   ││   │// Usage
-
-│  │  └────────────────────────────────────────────────────────────┘│   │<Card className="bg-indigo-500 p-6">
-
-│  └─────────────────────────────────────────────────────────────────┘   │  <Text className="text-white">Custom styled card</Text>
-
-└─────────────────────────────────────────────────────────────────────────┘</Card>
-
-                                    │```
-
-                    ┌───────────────┴───────────────┐
-
-                    │         HTTP/HTTPS            │### Color System
-
-                    │         WebSocket             │
-
-                    └───────────────┬───────────────┘Defined in `tailwind.config.js` for consistent theming:
-
-                                    │
-
-┌─────────────────────────────────────────────────────────────────────────┐| Variable | Color | Usage |
-
-│                           SERVER LAYER                                   │|----------|-------|-------|
-
-│  ┌─────────────────────────────────────────────────────────────────┐   │| `bg-background` | Zinc 950 | Main app background |
-
-│  │                    Express.js + Socket.IO                        │   │| `bg-primary` | Indigo 500 | Primary actions, CTAs |
-
-│  │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────────────┐│   │| `bg-secondary` | Teal 500 | Student role theme |
-
-│  │  │  Routes  │  │Middleware│  │Controllers│ │     Sockets      ││   │| `bg-accent` | Amber 500 | Faculty role theme |
-
-│  │  └──────────┘  └──────────┘  └──────────┘  └──────────────────┘│   │| `bg-danger` | Rose 500 | Warnings, admin actions |
-
-│  │  ┌────────────────────────────────────────────────────────────┐│   │| `text-foreground` | Zinc 50 | Primary text |
-
-│  │  │                    Services Layer                           ││   │| `text-muted` | Zinc 400 | Secondary text |
-
-│  │  │  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌───────────────┐ ││   │
-
-│  │  │  │  Email  │  │ Scraper │  │   S3    │  │   Anthropic   │ ││   │### Component Patterns
-
-│  │  │  └─────────┘  └─────────┘  └─────────┘  └───────────────┘ ││   │
-
-│  │  └────────────────────────────────────────────────────────────┘│   │```tsx
-
-│  └─────────────────────────────────────────────────────────────────┘   │// ✅ Good - Using utility classes
-
-└─────────────────────────────────────────────────────────────────────────┘<Button className="bg-primary text-white px-6 py-3 rounded-lg">
-
-                                    │  Submit
-
-                    ┌───────────────┴───────────────┐</Button>
-
-                    │                               │
-
-┌───────────────────┴─────────┐     ┌──────────────┴───────────────────┐// ❌ Avoid - Inline styles
-
-│         DATA LAYER          │     │         EXTERNAL SERVICES        │<Button style={{ backgroundColor: '#6366f1', padding: 12 }}>
-
-│  ┌───────────┐ ┌──────────┐│     │  ┌─────────┐  ┌────────────────┐ │  Submit
-
-│  │  MongoDB  │ │  Redis   ││     │  │ AWS S3  │  │  Anthropic AI  │ │</Button>
-
-│  │ (Primary) │ │ (Cache)  ││     │  │ Storage │  │   (Claude)     │ │```
-
-│  └───────────┘ └──────────┘│     │  └─────────┘  └────────────────┘ │
-
-│  ┌─────────────────────────┐│     │  ┌─────────┐  ┌────────────────┐ │---
-
-│  │    Mongoose Models      ││     │  │  Gmail  │  │  College Portal│ │
-
-│  └─────────────────────────┘│     │  │  SMTP   │  │   (Scraping)   │ │## 🧩 Core Components
-
-└─────────────────────────────┘     │  └─────────┘  └────────────────┘ │
-
-                                    └──────────────────────────────────┘### `AuthContext.tsx`
-
-```Manages authentication state and user roles. Provides `login()`, `logout()`, and `user` object throughout the app.
-
-
-
-### Request Flow```tsx
-
-const { user, role, login, logout } = useAuth();
-
-``````
-
-User Action → React Native Screen → Context/Hook → Service Layer
-
-    → HTTP Request/Socket Emit → Express Router → Middleware Chain### `RootNavigator.tsx`
-
-    → Controller → Service/Model → Database/External APIThe main navigation switch. Renders either:
-
-    → Response → Service Layer → Context Update → UI Re-render- `AuthNavigator` - Login/Signup screens
-
-```- `StudentNavigator` - Student-specific app
-
-- `FacultyNavigator` - Faculty workspace
-
----- `AlumniNavigator` - Alumni network
-
-- `AdminNavigator` - Admin dashboard
-
-## 📁 Project Structure
-
-### `CustomDrawer.tsx`
-
-### Root DirectoryDiscord-inspired dual-pane sidebar for Students:
-
-- Left pane: Server list (Classes, Committees, Alumni)
-
-```- Right pane: Channel list within selected server
-
-josh-net-app/- Smooth animations and haptic feedback
-
-├── backend/                    # Node.js Express API Server
-
-├── frontend/                   # React Native Expo Application---
-
-├── README.md                   # This documentation file
-
-└── .gitignore                  # Git ignore rules## 📱 Screenshots
-
-```
-
-*(Add screenshots here showing Student Dashboard, Faculty Workspace, Alumni Network, and Admin Analytics)*
-
-### Backend Structure
 
 ---
 
+</p>| Category | Technology |
+
+## ✨ Features
+
+|----------|-----------|
+
+<table>
+
+<tr>---| **Framework** | React Native (Expo SDK 52) |
+
+<td width="50%">
+
+| **Language** | TypeScript |
+
+### 🔐 Authentication & Security
+
+- JWT with access & refresh tokens## 📋 Table of Contents| **Styling** | NativeWind v4 (Tailwind CSS 3.4) + clsx + tailwind-merge |
+
+- Google OAuth integration
+
+- Email OTP verification| **Navigation** | React Navigation v6 (Stack, Drawer, Bottom Tabs) |
+
+- Two-factor authentication
+
+- Account lockout protection- [About The Project](#-about-the-project)| **Charts** | React Native Chart Kit |
+
+- Session management
+
+- Geo-location tracking- [Features](#-features)| **Icons** | Expo Vector Icons (Ionicons, MaterialCommunityIcons) |
+
+
+
+</td>- [Tech Stack](#-tech-stack)| **Architecture** | Feature-Based with Role-Based Access Control (RBAC) |
+
+<td width="50%">
+
+- [System Architecture](#-system-architecture)
+
+### 💬 Real-Time Communication
+
+- Discord-style servers & channels- [Project Structure](#-project-structure)---
+
+- Direct messaging
+
+- Friend system with requests- [Database Schema](#-database-schema)
+
+- Typing indicators
+
+- Message edit/delete/reply/forward- [API Documentation](#-api-documentation)## 📂 Project Structure
+
+- File attachments
+
+- Online presence tracking- [Frontend Modules](#-frontend-modules)
+
+
+
+</td>- [Backend Modules](#-backend-modules)```
+
+</tr>
+
+<tr>- [Real-Time Features](#-real-time-features)src/
+
+<td width="50%">
+
+- [Installation & Setup](#-installation--setup)├── app/                      # Application entry point
+
+### 🤖 Josephine AI Assistant
+
+- Powered by Anthropic Claude- [Environment Variables](#-environment-variables)├── components/            
+
+- Campus-aware responses
+
+- Persistent chat history- [Running the Application](#-running-the-application)│   ├── ui/                   # Reusable primitives (Button, Input, Card)
+
+- Document analysis
+
+- Starred conversations- [Testing](#-testing)│   └── shared/               # Complex shared components
+
+
+
+</td>- [Future Roadmap](#-future-roadmap)├── context/                  # Global state management
+
+<td width="50%">
+
+- [Contributors](#-contributors)│   ├── AuthContext.tsx       # Authentication & role management
+
+### 📚 Academic Materials
+
+- Semester → Subject → Files structure- [Acknowledgments](#-acknowledgments)│   └── UserContext.tsx       # User profile data
+
+- AWS S3 cloud storage
+
+- Upload, download, copy, move- [License](#-license)├── features/                 # Feature modules by user role
+
+- Bulk ZIP downloads
+
+- Role-based access control│   ├── auth/                 # Login, Signup, OTP, Password Reset
+
+
+
+</td>---│   ├── student/              # Student-specific features
+
+</tr>
+
+<tr>│   │   ├── screens/          # Dashboard, Attendance, Materials
+
+<td width="50%">
+
+## 🎯 About The Project│   │   └── components/       # Student UI components
+
+### 📊 Attendance & Analytics
+
+- Real-time percentage tracking│   ├── faculty/              # Faculty workspace & tools
+
+- 75% eligibility calculator
+
+- Visual calendar heatmaps**JoshNet V3** is a comprehensive campus ecosystem mobile application developed as a **Final Year Project** for the **BBA IT (Bachelor of Business Administration in Information Technology)** program at **St. Joseph's Degree & PG College, Hyderabad**.│   ├── alumni/               # Alumni networking & mentorship
+
+- Attendance predictions
+
+- Auto-sync from college portal│   └── admin/                # Administration & analytics
+
+
+
+</td>The application transforms how students, faculty, alumni, and administrators interact on campus by combining:├── lib/                      # Utility functions
+
+<td width="50%">
+
+- **Discord-inspired** real-time communication│   └── utils.ts              # cn() class merger & helpers
+
+### 👥 User Roles
+
+- **Student**: Chat, materials, AI, friends- **AI-powered** assistance with Josephine (Claude AI)├── navigation/               # Navigation configuration
+
+- **Faculty**: Attendance, uploads, classes
+
+- **Alumni**: Networking, mentorship- **Academic management** tools│   ├── RootNavigator.tsx     # Main routing logic
+
+- **Admin**: Full system control
+
+- **Role-based access control** for secure, personalized experiences│   └── CustomDrawer.tsx      # Discord-style sidebar
+
+</td>
+
+</tr>└── services/                 # API service layer
+
+</table>
+
+### 🎯 Problem Statement```
+
+<br/>
+
+
+
+---
+
+Traditional campus management systems are fragmented—students use multiple apps for attendance, materials, communication, and academic tracking. JoshNet unifies these into a single, intelligent platform.---
+
+## 🛠 Tech Stack
+
+
+
+### Backend
+
+### 💡 Solution## 👥 User Roles & Features
+
+| Category | Technology | Purpose |
+
+|:---------|:-----------|:--------|
+
+| **Runtime** | Node.js 20.x | JavaScript runtime |
+
+| **Framework** | Express.js 5.x | Web framework |A mobile-first platform with:### 🎒 Student Portal
+
+| **Database** | MongoDB 8.x | Primary storage |
+
+| **ODM** | Mongoose 8.x | Object modeling |- Unified communication channels
+
+| **Cache** | Redis 5.x | Session caching |
+
+| **Real-time** | Socket.IO 4.x | WebSocket server |- AI assistant for instant helpThe student experience is designed around community and academic success.
+
+| **Auth** | Passport.js + JWT | Authentication |
+
+| **Storage** | AWS S3 | File storage |- Real-time attendance and academic tracking
+
+| **Email** | Nodemailer | Email service |
+
+| **AI** | Anthropic Claude | AI chatbot |- Role-specific dashboards**Features:**
+
+| **Scraping** | Puppeteer + Cheerio | Data extraction |
+
+- Secure file sharing and material management- **Discord-Style Navigation** - Intuitive sidebar with servers for Classes, Committees, and Alumni connections
+
+### Frontend
+
+- **Josephine AI** - Your 24/7 AI assistant for campus questions, homework help, and guidance
+
+| Category | Technology | Purpose |
+
+|:---------|:-----------|:--------|---- **Materials Repository** - Organized accordion view: Semesters → Subjects → PDFs/Resources
+
+| **Framework** | React Native 0.81 | Mobile development |
+
+| **Platform** | Expo SDK 54 | Build tools |- **Attendance Dashboard** - Visual heatmaps with 75% eligibility calculator and predictions
+
+| **Language** | TypeScript 5.9 | Type safety |
+
+| **Styling** | NativeWind 4.2 | Tailwind for RN |## ✨ Features- **Academic Profile** - Real-time CGPA tracking, attendance stats, and performance insights
+
+| **Navigation** | React Navigation 7 | App routing |
+
+| **State** | React Context | State management |
+
+| **WebSocket** | Socket.IO Client | Real-time |
+
+| **Storage** | AsyncStorage | Local persistence |### 🔐 Authentication & Security### 👨‍🏫 Faculty Workspace
+
+
+
+<br/>| Feature | Description |
+
+
+
+---|---------|-------------|Streamlined tools for educators to focus on teaching, not administration.
+
+
+
+## 🏗 System Architecture| **JWT Authentication** | Secure token-based authentication with access & refresh tokens |
+
+
+
+```| **OAuth 2.0** | Google Sign-In integration via Passport.js |**Features:**
+
+┌─────────────────────────────────────────────────────────────────┐
+
+│                        CLIENT LAYER                              │| **OTP Verification** | Email-based OTP for account verification and password reset |- **Smart Attendance** - Quick mark entry with class rosters and analytics
+
+│  ┌───────────────────────────────────────────────────────────┐  │
+
+│  │                  React Native (Expo)                       │  │| **Two-Factor Authentication** | Additional security layer for sensitive operations |- **Marks Management** - Internal assessment entry (IA1, IA2) with auto-calculation
+
+│  │   Auth    │   Server   │   Inbox    │    Josephine        │  │
+
+│  │  Context  │  Context   │  Context   │     Context         │  │| **Account Lockout** | Automatic lockout after failed login attempts |- **Interactive Timetable** - Day-to-day lecture schedule with room assignments
+
+│  │───────────────────────────────────────────────────────────│  │
+
+│  │              Service Layer (API + Socket)                  │  │| **Session Management** | Track and manage active sessions across devices |- **Department Communication** - Dedicated chat rooms for faculty collaboration
+
+│  └───────────────────────────────────────────────────────────┘  │
+
+└─────────────────────────────────────────────────────────────────┘| **Geo-location Tracking** | Login location tracking for security |- **Class Channels** - Direct communication with student batches
+
+                              │
+
+                    HTTP/HTTPS + WebSocket
+
+                              │
+
+┌─────────────────────────────────────────────────────────────────┐### 💬 Real-Time Communication### 🎓 Alumni Network
+
+│                        SERVER LAYER                              │
+
+│  ┌───────────────────────────────────────────────────────────┐  │| Feature | Description |
+
+│  │                Express.js + Socket.IO                      │  │
+
+│  │   Routes   │  Middleware  │  Controllers  │    Sockets    │  │|---------|-------------|Stay connected with your alma mater and give back to the community.
+
+│  │───────────────────────────────────────────────────────────│  │
+
+│  │  Email   │   Scraper   │     S3      │    Anthropic       │  │| **Servers & Channels** | Discord-style server organization with text channels |
+
+│  └───────────────────────────────────────────────────────────┘  │
+
+└─────────────────────────────────────────────────────────────────┘| **Direct Messaging** | Private conversations between users |**Features:**
+
+                              │
+
+              ┌───────────────┴───────────────┐| **Friend System** | Send, accept, reject friend requests |- **Batch Connections** - Reconnect with classmates through batch-specific channels
+
+              │                               │
+
+┌─────────────┴─────────────┐   ┌────────────┴────────────────┐| **Typing Indicators** | Real-time typing status in channels |- **Mentorship Program** - Guide current students in their career journey
+
+│       DATA LAYER          │   │     EXTERNAL SERVICES       │
+
+│  MongoDB     │    Redis   │   │  AWS S3  │  Claude AI       │| **Message Features** | Edit, delete, reply, forward messages |- **Event Hub** - Alumni meetups, reunions, and fundraising campaigns
+
+│  (Primary)   │   (Cache)  │   │  Gmail   │  College Portal  │
+
+└───────────────────────────┘   └─────────────────────────────┘| **File Attachments** | Share images, documents, and files in chat |- **Career Network** - Job postings and professional networking
+
 ```
 
-backend/## 🤝 Contributing
+| **User Presence** | Online/offline status tracking |
 
-├── config/                     # Configuration files
+<br/>
+
+### 👔 Admin Dashboard
+
+---
+
+### 🤖 Josephine AI Assistant
+
+## 📁 Project Structure
+
+| Feature | Description |Powerful oversight and management tools for campus administrators.
+
+<details>
+
+<summary><b>📂 Backend Structure</b> (click to expand)</summary>|---------|-------------|
+
+
+
+```| **AI Chat** | Powered by Anthropic Claude API |**Features:**
+
+backend/
+
+├── config/| **Context Awareness** | Understands campus-related queries |- **System Analytics** - Real-time metrics, user activity logs, and engagement stats
+
+│   └── s3.config.js              # AWS S3 configuration
+
+│| **Chat History** | Persistent conversation storage |- **Global Announcements** - Broadcast important updates to the entire campus
+
+├── controllers/
+
+│   ├── admin.controller.js       # Admin operations| **File Analysis** | Upload documents for AI analysis |- **User Management** - Verify accounts, manage permissions, and moderate content
+
+│   ├── auth.controller.js        # Authentication logic
+
+│   ├── inbox.controller.js       # Friends & requests| **Starred Chats** | Bookmark important conversations |- **Feedback Center** - Review and respond to student/faculty feedback
+
+│   ├── josephine.controller.js   # AI chatbot
+
+│   ├── materials.controller.js   # File management
+
+│   └── server.controller.js      # Servers & channels
+
+│### 📚 Academic Materials---
+
+├── database/
+
+│   ├── connectDB.js              # MongoDB connection| Feature | Description |
+
+│   └── redis.js                  # Redis client
+
+│|---------|-------------|## 🔐 Role-Based Access Control (RBAC)
+
+├── middleware/
+
+│   ├── auth.middleware.js        # JWT verification| **Hierarchical Organization** | Semester → Subject → Materials structure |
+
+│   ├── material.middleware.js    # Material validation
+
+│   ├── upload.middleware.js      # File uploads| **File Management** | Upload, download, copy, move, delete files |JoshNet uses a "Traffic Cop" navigation strategy to ensure secure, role-appropriate experiences. 
+
+│   └── voice.middleware.js       # Voice processing
+
+│| **AWS S3 Storage** | Secure cloud storage for all materials |
+
+├── models/
+
+│   ├── user.model.js             # User schema| **Bulk Operations** | Download multiple files as ZIP |**How it works:**
+
+│   ├── server.model.js           # Server schema
+
+│   ├── channel.model.js          # Channel schema| **Access Control** | Role-based material access |1. User logs in and receives a role token (`STUDENT`, `FACULTY`, `ALUMNI`, `ADMIN`)
+
+│   ├── message.model.js          # Message schema
+
+│   ├── chat.model.js             # AI chat schema2. `RootNavigator.tsx` acts as a security gateway
+
+│   ├── material.model.js         # Material schema
+
+│   ├── invite.model.js           # Invite schema### 📊 Attendance & Analytics3. Role-specific navigator is rendered (e.g., `StudentNavigator`)
+
+│   ├── otp.model.js              # OTP schema
+
+│   └── emoji.model.js            # Emoji schema| Feature | Description |4. All screens and features are scoped to that role—no cross-contamination
+
+│
+
+├── routes/|---------|-------------|
+
+│   ├── auth.routes.js            # /api/v1/auth/*
+
+│   ├── inbox.routes.js           # /api/v1/inbox/*| **Real-time Tracking** | Current attendance percentage |> **Security Note:** A user logged in as Student cannot access Faculty or Admin screens, even by manipulating routes.
+
+│   ├── josephine.routes.js       # /api/v1/josephine/*
+
+│   ├── materials.routes.js       # /api/v1/materials/*| **Eligibility Calculator** | 75% attendance requirement checker |
+
+│   └── server.routes.js          # /api/v1/server/*
+
+│| **Visual Heatmaps** | Calendar-based attendance visualization |---
+
+├── services/
+
+│   ├── email.service.js          # Email sending| **Predictions** | Attendance prediction algorithms |
+
+│   └── scraper.service.js        # Web scraping
+
+│| **Web Scraping** | Automated data from college portal |## 🛠️ Getting Started
+
+├── sockets/
+
+│   ├── index.js                  # Socket initialization
+
+│   ├── channel.socket.js         # Channel events
+
+│   ├── message.socket.js         # Message events### 👥 User Roles### Prerequisites
+
+│   ├── inbox.socket.js           # Friend events
+
+│   └── server.socket.js          # Server events| Role | Capabilities |
+
+│
+
+├── utils/|------|--------------|- **Node.js** (LTS version recommended)
+
+│   ├── auth.utils.js             # Auth helpers
+
+│   ├── s3.utils.js               # S3 operations| **Student** | Chat, materials, attendance, AI assistant, friends |- **Expo CLI** (`npm install -g expo-cli`)
+
+│   └── prompts/
+
+│       └── josephine.prompts.js  # AI prompts| **Faculty** | Attendance marking, material upload, class management |- **iOS Simulator** or **Android Emulator** (or use Expo Go on your phone)
+
+│
+
+├── server.js                     # Entry point| **Alumni** | Networking, mentorship, batch connections |
+
+└── package.json
+
+```| **Admin** | User management, analytics, system configuration |### Installation
+
+
+
+</details>
+
+
+
+<details>---1. **Clone the repository**
+
+<summary><b>📂 Frontend Structure</b> (click to expand)</summary>
+
+   ```bash
+
+```
+
+frontend/## 🛠 Tech Stack   git clone https://github.com/noturbob/josh-net-app.git
+
+├── src/
+
+│   ├── components/   cd josh-net-app/frontend
+
+│   │   └── ui/
+
+│   │       ├── Button.tsx        # Button component### Backend Technologies   ```
+
+│   │       └── Input.tsx         # Input component
+
+│   │
+
+│   ├── config/
+
+│   │   └── api.config.ts         # API configuration| Category | Technology | Version | Purpose |2. **Install dependencies**  
+
+│   │
+
+│   ├── context/|----------|------------|---------|---------|   We use `--legacy-peer-deps` to resolve peer dependency conflicts between NativeWind v4 and Tailwind 3.4.
+
+│   │   ├── AuthContext.tsx       # Auth state
+
+│   │   ├── ServerContext.tsx     # Server state| **Runtime** | Node.js | 20.x LTS | JavaScript runtime |   ```bash
+
+│   │   ├── JosephineContext.tsx  # AI chat state
+
+│   │   ├── InboxContext.tsx      # Friends state| **Framework** | Express.js | 5.x | Web application framework |   npm install --legacy-peer-deps
+
+│   │   └── index.ts              # Exports
+
+│   │| **Database** | MongoDB | 8.x | Primary data storage |   ```
+
+│   ├── features/
+
+│   │   ├── auth/| **ODM** | Mongoose | 8.19.x | MongoDB object modeling |
+
+│   │   │   ├── LoginScreen.tsx
+
+│   │   │   ├── SignUpScreen.tsx| **Cache** | Redis | 5.x | Session & data caching |3. **Install Expo modules**
+
+│   │   │   ├── OtpScreen.tsx
+
+│   │   │   ├── ForgotPasswordScreen.tsx| **Real-time** | Socket.IO | 4.8.x | WebSocket communication |   ```bash
+
+│   │   │   └── ResetPasswordScreen.tsx
+
+│   │   │| **Authentication** | Passport.js | 0.7.x | OAuth & authentication |   npx expo install react-native-reanimated react-native-safe-area-context \
+
+│   │   ├── inbox/
+
+│   │   │   └── InboxScreen.tsx| **JWT** | jsonwebtoken | 9.x | Token generation & verification |     react-native-gesture-handler react-native-screens react-native-svg
+
+│   │   │
+
+│   │   └── student/| **File Storage** | AWS S3 | SDK 3.x | Cloud file storage |   ```
+
+│   │       ├── screens/
+
+│   │       │   ├── StudentDashboard.tsx| **Email** | Nodemailer | 7.x | Email notifications |
+
+│   │       │   └── StudentScreens.tsx
+
+│   │       └── components/| **AI** | Anthropic API | Claude 3.5 | AI chatbot integration |4. **Start the development server**  
+
+│   │           └── StudentDrawer.tsx
+
+│   │| **Web Scraping** | Puppeteer | 24.x | Browser automation |   Always use `--clear` to reset the CSS compiler cache.
+
+│   ├── lib/
+
+│   │   └── utils.ts              # Utilities| **Scraping Parser** | Cheerio | 1.x | HTML parsing |   ```bash
+
+│   │
+
+│   ├── navigation/   npx expo start --clear
+
+│   │   ├── RootNavigator.tsx
+
+│   │   ├── AuthNavigator.tsx### Frontend Technologies   ```
+
+│   │   └── StudentNavigator.tsx
+
+│   │
+
+│   └── services/
+
+│       ├── api.client.ts         # HTTP client| Category | Technology | Version | Purpose |5. **Run on device**
+
+│       ├── auth.service.ts       # Auth API
+
+│       ├── server.service.ts     # Server API|----------|------------|---------|---------|   - Press `i` for iOS Simulator
+
+│       ├── inbox.service.ts      # Inbox API
+
+│       ├── materials.service.ts  # Materials API| **Framework** | React Native | 0.81.x | Cross-platform mobile |   - Press `a` for Android Emulator
+
+│       ├── josephine.service.ts  # AI API
+
+│       ├── socket.service.ts     # WebSocket| **Platform** | Expo | SDK 54 | Development & build tools |   - Scan QR code with Expo Go app on your phone
+
+│       └── index.ts              # Exports
+
+│| **Language** | TypeScript | 5.9.x | Type-safe JavaScript |
+
+├── App.tsx                       # Entry point
+
+├── app.json                      # Expo config| **Styling** | NativeWind | 4.2.x | Tailwind CSS for RN |---
+
+├── tailwind.config.js            # Tailwind config
+
+└── package.json| **CSS** | Tailwind CSS | 3.4.x | Utility-first CSS |
+
+```
+
+| **Navigation** | React Navigation | 7.x | App navigation |## 🎨 Styling Guide
+
+</details>
+
+| **State** | React Context | - | Global state management |
+
+<br/>
+
+| **HTTP Client** | Fetch API | - | API communication |JoshNet uses a **shadcn-inspired design system** built on NativeWind (Tailwind for React Native).
+
+---
+
+| **WebSocket** | Socket.IO Client | 4.7.x | Real-time features |
+
+## 🗄 Database Schema
+
+| **Storage** | AsyncStorage | 2.1.x | Local data persistence |### The `cn()` Utility
+
+```
+
+┌──────────────┐       ┌──────────────┐       ┌──────────────┐| **File Picker** | Expo Document Picker | 13.1.x | File selection |
+
+│     User     │───────│    Server    │───────│   Channel    │
+
+│──────────────│  N:M  │──────────────│  1:N  │──────────────│| **Icons** | Expo Vector Icons | 14.x | Icon library |Our secret weapon for dynamic, mergeable class names:
+
+│ _id          │       │ _id          │       │ _id          │
+
+│ email        │       │ name         │       │ name         │
+
+│ name         │       │ description  │       │ type         │
+
+│ password     │       │ icon         │       │ server       │---```tsx
+
+│ role         │       │ owner        │       └──────────────┘
+
+│ friends[]    │       │ members[]    │              │import { cn } from '@/lib/utils';
+
+│ servers[]    │       └──────────────┘              │
+
+└──────────────┘              │                ┌─────┴────┐## 🏗 System Architecture
+
+       │               ┌──────┴─────┐          │ Message  │
+
+       │               │   Invite   │          │──────────│// Base component with overridable styles
+
+┌──────┴──────┐        │────────────│          │ content  │
+
+│    Chat     │        │ code       │          │ author   │### High-Level Architecturefunction Card({ className, ...props }) {
+
+│─────────────│        │ server     │          │ channel  │
+
+│ user        │        │ uses       │          │ replyTo  │  return (
+
+│ messages[]  │        │ expiresAt  │          └──────────┘
+
+│ starred     │        └────────────┘```    <View 
+
+└─────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────┐      className={cn(
+
+┌──────────────┐       ┌──────────────┐
+
+│   Material   │       │     OTP      ││                           CLIENT LAYER                                   │        "bg-zinc-900 rounded-xl p-4 shadow-lg",
+
+│──────────────│       │──────────────│
+
+│ name         │       │ email        ││  ┌─────────────────────────────────────────────────────────────────┐   │        className // Allows parent to override
+
+│ type         │       │ otp          │
+
+│ s3Key        │       │ expiresAt    ││  │                    React Native (Expo)                           │   │      )}
+
+│ parent       │       │ verified     │
+
+│ uploadedBy   │       └──────────────┘│  │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────────────┐│   │      {...props}
+
+└──────────────┘
+
+```│  │  │   Auth   │  │  Server  │  │  Inbox   │  │    Josephine     ││   │    />
+
+
+
+<br/>│  │  │ Context  │  │ Context  │  │ Context  │  │     Context      ││   │  );
+
+
+
+---│  │  └──────────┘  └──────────┘  └──────────┘  └──────────────────┘│   │}
+
+
+
+## 📡 API Documentation│  │  ┌────────────────────────────────────────────────────────────┐│   │
+
+
+
+### Base URL│  │  │              Service Layer (API + Socket)                   ││   │// Usage
+
+
+
+```│  │  └────────────────────────────────────────────────────────────┘│   │<Card className="bg-indigo-500 p-6">
+
+Development: http://localhost:8080/api/v1
+
+Production:  https://api.joshnet.app/api/v1│  └─────────────────────────────────────────────────────────────────┘   │  <Text className="text-white">Custom styled card</Text>
+
+```
+
+└─────────────────────────────────────────────────────────────────────────┘</Card>
+
+### Authentication
+
+                                    │```
+
+| Method | Endpoint | Description |
+
+|:-------|:---------|:------------|                    ┌───────────────┴───────────────┐
+
+| `POST` | `/auth/register` | Register new user |
+
+| `POST` | `/auth/login` | User login |                    │         HTTP/HTTPS            │### Color System
+
+| `POST` | `/auth/logout` | Logout session |
+
+| `POST` | `/auth/send-otp` | Send OTP email |                    │         WebSocket             │
+
+| `POST` | `/auth/verify-otp` | Verify OTP |
+
+| `POST` | `/auth/change-password` | Reset password |                    └───────────────┬───────────────┘Defined in `tailwind.config.js` for consistent theming:
+
+| `POST` | `/auth/refresh-token` | Refresh JWT |
+
+| `GET` | `/auth/profile` | Get profile |                                    │
+
+| `GET` | `/auth/google` | Google OAuth |
+
+┌─────────────────────────────────────────────────────────────────────────┐| Variable | Color | Usage |
+
+### Servers & Channels
+
+│                           SERVER LAYER                                   │|----------|-------|-------|
+
+| Method | Endpoint | Description |
+
+|:-------|:---------|:------------|│  ┌─────────────────────────────────────────────────────────────────┐   │| `bg-background` | Zinc 950 | Main app background |
+
+| `GET` | `/server/list` | List servers |
+
+| `POST` | `/server/create` | Create server |│  │                    Express.js + Socket.IO                        │   │| `bg-primary` | Indigo 500 | Primary actions, CTAs |
+
+| `POST` | `/server/create-invite` | Generate invite |
+
+| `POST` | `/server/join-invite` | Join server |│  │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────────────┐│   │| `bg-secondary` | Teal 500 | Student role theme |
+
+| `POST` | `/server/channel/create` | Create channel |
+
+| `GET` | `/server/channel/list` | List channels |│  │  │  Routes  │  │Middleware│  │Controllers│ │     Sockets      ││   │| `bg-accent` | Amber 500 | Faculty role theme |
+
+| `GET` | `/server/message/list` | Get messages |
+
+| `PATCH` | `/server/message/edit` | Edit message |│  │  └──────────┘  └──────────┘  └──────────┘  └──────────────────┘│   │| `bg-danger` | Rose 500 | Warnings, admin actions |
+
+| `DELETE` | `/server/message/delete` | Delete message |
+
+│  │  ┌────────────────────────────────────────────────────────────┐│   │| `text-foreground` | Zinc 50 | Primary text |
+
+### Inbox
+
+│  │  │                    Services Layer                           ││   │| `text-muted` | Zinc 400 | Secondary text |
+
+| Method | Endpoint | Description |
+
+|:-------|:---------|:------------|│  │  │  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌───────────────┐ ││   │
+
+| `GET` | `/inbox/friends` | List friends |
+
+| `POST` | `/inbox/search` | Search users |│  │  │  │  Email  │  │ Scraper │  │   S3    │  │   Anthropic   │ ││   │### Component Patterns
+
+| `POST` | `/inbox/send-request` | Send request |
+
+| `POST` | `/inbox/accept-request` | Accept request |│  │  │  └─────────┘  └─────────┘  └─────────┘  └───────────────┘ ││   │
+
+| `POST` | `/inbox/reject-request` | Reject request |
+
+│  │  └────────────────────────────────────────────────────────────┘│   │```tsx
+
+### Materials
+
+│  └─────────────────────────────────────────────────────────────────┘   │// ✅ Good - Using utility classes
+
+| Method | Endpoint | Description |
+
+|:-------|:---------|:------------|└─────────────────────────────────────────────────────────────────────────┘<Button className="bg-primary text-white px-6 py-3 rounded-lg">
+
+| `GET` | `/materials/list` | List materials |
+
+| `POST` | `/materials/upload` | Upload file |                                    │  Submit
+
+| `GET` | `/materials/download/:id` | Download file |
+
+| `POST` | `/materials/download-zip` | Bulk download |                    ┌───────────────┴───────────────┐</Button>
+
+| `DELETE` | `/materials/delete/:id` | Delete file |
+
+                    │                               │
+
+### Josephine AI
+
+┌───────────────────┴─────────┐     ┌──────────────┴───────────────────┐// ❌ Avoid - Inline styles
+
+| Method | Endpoint | Description |
+
+|:-------|:---------|:------------|│         DATA LAYER          │     │         EXTERNAL SERVICES        │<Button style={{ backgroundColor: '#6366f1', padding: 12 }}>
+
+| `GET` | `/josephine/chats` | List chats |
+
+| `GET` | `/josephine/chat/:id` | Get chat |│  ┌───────────┐ ┌──────────┐│     │  ┌─────────┐  ┌────────────────┐ │  Submit
+
+| `POST` | `/josephine/prompt` | Send prompt |
+
+| `DELETE` | `/josephine/chat/:id` | Delete chat |│  │  MongoDB  │ │  Redis   ││     │  │ AWS S3  │  │  Anthropic AI  │ │</Button>
+
+
+
+<br/>│  │ (Primary) │ │ (Cache)  ││     │  │ Storage │  │   (Claude)     │ │```
+
+
+
+---│  └───────────┘ └──────────┘│     │  └─────────┘  └────────────────┘ │
+
+
+
+## 🔌 Socket Events│  ┌─────────────────────────┐│     │  ┌─────────┐  ┌────────────────┐ │---
+
+
+
+### Client → Server│  │    Mongoose Models      ││     │  │  Gmail  │  │  College Portal│ │
+
+
+
+| Event | Description |│  └─────────────────────────┘│     │  │  SMTP   │  │   (Scraping)   │ │## 🧩 Core Components
+
+|:------|:------------|
+
+| `register-user` | Register for events |└─────────────────────────────┘     │  └─────────┘  └────────────────┘ │
+
+| `join-channel` | Join channel room |
+
+| `leave-channel` | Leave channel |                                    └──────────────────────────────────┘### `AuthContext.tsx`
+
+| `typing` | Send typing indicator |
+
+| `send-message` | Send message |```Manages authentication state and user roles. Provides `login()`, `logout()`, and `user` object throughout the app.
+
+
+
+### Server → Client
+
+
+
+| Event | Description |### Request Flow```tsx
+
+|:------|:------------|
+
+| `receive-message` | New message |const { user, role, login, logout } = useAuth();
+
+| `typing-indicator` | User typing |
+
+| `new-member-joined` | Member joined |``````
+
+| `friend-request-received` | New request |
+
+User Action → React Native Screen → Context/Hook → Service Layer
+
+<br/>
+
+    → HTTP Request/Socket Emit → Express Router → Middleware Chain### `RootNavigator.tsx`
+
+---
+
+    → Controller → Service/Model → Database/External APIThe main navigation switch. Renders either:
+
+## 🚀 Installation & Setup
+
+    → Response → Service Layer → Context Update → UI Re-render- `AuthNavigator` - Login/Signup screens
+
+### Prerequisites
+
+```- `StudentNavigator` - Student-specific app
+
+- Node.js 20.x LTS
+
+- MongoDB 7.x- `FacultyNavigator` - Faculty workspace
+
+- Redis 7.x
+
+- Expo CLI---- `AlumniNavigator` - Alumni network
+
+- AWS Account
+
+- Anthropic API Key- `AdminNavigator` - Admin dashboard
+
+
+
+### 1️⃣ Clone Repository## 📁 Project Structure
+
+
+
+```bash### `CustomDrawer.tsx`
+
+git clone https://github.com/noturbob/josh-net-app.git
+
+cd josh-net-app### Root DirectoryDiscord-inspired dual-pane sidebar for Students:
+
+```
+
+- Left pane: Server list (Classes, Committees, Alumni)
+
+### 2️⃣ Backend Setup
+
+```- Right pane: Channel list within selected server
+
+```bash
+
+cd backendjosh-net-app/- Smooth animations and haptic feedback
+
+npm install
+
+cp .env.example .env├── backend/                    # Node.js Express API Server
+
+# Edit .env with your configuration
+
+npm run dev├── frontend/                   # React Native Expo Application---
+
+```
+
+├── README.md                   # This documentation file
+
+### 3️⃣ Frontend Setup
+
+└── .gitignore                  # Git ignore rules## 📱 Screenshots
+
+```bash
+
+cd frontend```
+
+npm install
+
+# Edit src/config/api.config.ts with your backend URL*(Add screenshots here showing Student Dashboard, Faculty Workspace, Alumni Network, and Admin Analytics)*
+
+npx expo start --clear
+
+```### Backend Structure
+
+
+
+<br/>---
+
+
+
+---```
+
+
+
+## 🔐 Environment Variablesbackend/## 🤝 Contributing
+
+
+
+<details>├── config/                     # Configuration files
+
+<summary><b>Backend .env</b> (click to expand)</summary>
 
 │   └── s3.config.js           # AWS S3 client configurationWe welcome contributions! Here's how to get started:
 
-│
+```env
 
-├── controllers/                # Request handlers (Business Logic)1. **Fork the repository**
+# Server│
 
-│   ├── admin.controller.js    # Admin operations2. **Create a feature branch**
+PORT=8080
+
+NODE_ENV=development├── controllers/                # Request handlers (Business Logic)1. **Fork the repository**
+
+
+
+# MongoDB│   ├── admin.controller.js    # Admin operations2. **Create a feature branch**
+
+MONGODB_URI=mongodb://localhost:27017/joshnet
 
 │   ├── auth.controller.js     # Authentication (login, register, OTP)   ```bash
 
-│   ├── inbox.controller.js    # Friends & requests management   git checkout -b feature/amazing-feature
+# Redis
 
-│   ├── josephine.controller.js # AI chatbot interactions   ```
+REDIS_URL=redis://localhost:6379│   ├── inbox.controller.js    # Friends & requests management   git checkout -b feature/amazing-feature
 
-│   ├── materials.controller.js # File & material management3. **Add your feature**
+
+
+# JWT│   ├── josephine.controller.js # AI chatbot interactions   ```
+
+JWT_SECRET=your-super-secret-key-min-32-chars
+
+JWT_ACCESS_EXPIRY=15m│   ├── materials.controller.js # File & material management3. **Add your feature**
+
+JWT_REFRESH_EXPIRY=7d
 
 │   └── server.controller.js   # Server, channel, message operations   - Place new screens in `src/features/{role}/screens/`
 
-│   - Register screens in the appropriate Navigator
+# AWS S3
 
-├── database/                   # Database connections   - Follow existing code patterns and styling conventions
+AWS_ACCESS_KEY_ID=your-access-key│   - Register screens in the appropriate Navigator
+
+AWS_SECRET_ACCESS_KEY=your-secret-key
+
+AWS_REGION=ap-south-1├── database/                   # Database connections   - Follow existing code patterns and styling conventions
+
+AWS_S3_BUCKET=joshnet-materials
 
 │   ├── connectDB.js           # MongoDB connection setup4. **Commit your changes**
 
-│   └── redis.js               # Redis client configuration   ```bash
+# Email (Gmail)
 
-│   git commit -m "Add amazing feature"
+EMAIL_HOST=smtp.gmail.com│   └── redis.js               # Redis client configuration   ```bash
+
+EMAIL_PORT=587
+
+EMAIL_USER=your-email@gmail.com│   git commit -m "Add amazing feature"
+
+EMAIL_PASS=your-app-password
 
 ├── middleware/                 # Express middleware   ```
 
-│   ├── auth.middleware.js     # JWT verification & protection5. **Push and create a Pull Request**
+# Anthropic
 
-│   ├── material.middleware.js # Material access validation   ```bash
+ANTHROPIC_API_KEY=sk-ant-api-your-key│   ├── auth.middleware.js     # JWT verification & protection5. **Push and create a Pull Request**
 
-│   ├── upload.middleware.js   # Multer file upload handling   git push origin feature/amazing-feature
 
-│   └── voice.middleware.js    # Voice file processing   ```
 
-│
+# Google OAuth│   ├── material.middleware.js # Material access validation   ```bash
 
-├── models/                     # Mongoose schemas### Development Guidelines
+GOOGLE_CLIENT_ID=your-client-id
 
-│   ├── channel.model.js       # Channel schema (text/voice)
+GOOGLE_CLIENT_SECRET=your-secret│   ├── upload.middleware.js   # Multer file upload handling   git push origin feature/amazing-feature
 
-│   ├── chat.model.js          # AI chat conversation schema- Use TypeScript for all new files
+GOOGLE_CALLBACK_URL=http://localhost:8080/api/v1/auth/google/callback
 
-│   ├── emoji.model.js         # Custom emoji schema- Follow the existing folder structure
+```│   └── voice.middleware.js    # Voice file processing   ```
+
+
+
+</details>│
+
+
+
+<br/>├── models/                     # Mongoose schemas### Development Guidelines
+
+
+
+---│   ├── channel.model.js       # Channel schema (text/voice)
+
+
+
+## 🧪 Testing│   ├── chat.model.js          # AI chat conversation schema- Use TypeScript for all new files
+
+
+
+```bash│   ├── emoji.model.js         # Custom emoji schema- Follow the existing folder structure
+
+cd backend
 
 │   ├── invite.model.js        # Server invite schema- Use the `cn()` utility for className merging
 
-│   ├── material.model.js      # Academic material schema- Add comments for complex logic
+# Run all tests
 
-│   ├── message.model.js       # Chat message schema- Test on both iOS and Android
+npm test│   ├── material.model.js      # Academic material schema- Add comments for complex logic
+
+
+
+# With coverage│   ├── message.model.js       # Chat message schema- Test on both iOS and Android
+
+npm run test:coverage
 
 │   ├── otp.model.js           # OTP verification schema
 
-│   ├── savedUser.model.js     # Saved user preferences---
+# Specific suites
 
-│   ├── server.model.js        # Server (community) schema
+npm run test:models│   ├── savedUser.model.js     # Saved user preferences---
 
-│   ├── user.model.js          # User account schema## 📝 License
+npm run test:controllers
 
-│   ├── index.js               # Model exports
+```│   ├── server.model.js        # Server (community) schema
 
-│   └── constants/             # Schema constantsThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-│       ├── index.js
 
-│       └── materialSelections.js---
+<br/>│   ├── user.model.js          # User account schema## 📝 License
+
+
+
+---│   ├── index.js               # Model exports
+
+
+
+## 🗺 Future Roadmap│   └── constants/             # Schema constantsThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
+- [ ] **v3.1** — Voice channels, push notifications, themes│       ├── index.js
+
+- [ ] **v3.2** — Faculty module, QR attendance, timetables
+
+- [ ] **v3.3** — Alumni networking, mentorship, jobs│       └── materialSelections.js---
+
+- [ ] **v4.0** — Admin web portal, analytics, multi-institution
 
 │
+
+<br/>
 
 ├── routes/                     # API route definitions## 🙏 Acknowledgments
 
+---
+
 │   ├── auth.routes.js         # /api/v1/auth/*
+
+## 👥 Contributors
 
 │   ├── inbox.routes.js        # /api/v1/inbox/*- Built with ❤️ for college campuses everywhere
 
-│   ├── josephine.routes.js    # /api/v1/josephine/*- Inspired by Discord's excellent UX patterns
+<table>
 
-│   ├── materials.routes.js    # /api/v1/materials/*- Powered by the amazing Expo and React Native community
+<tr>│   ├── josephine.routes.js    # /api/v1/josephine/*- Inspired by Discord's excellent UX patterns
 
-│   └── server.routes.js       # /api/v1/server/*
+<td align="center">
 
-│---
+<a href="https://github.com/whyismeleige">│   ├── materials.routes.js    # /api/v1/materials/*- Powered by the amazing Expo and React Native community
 
-├── scripts/                    # Utility scripts
+<img src="https://github.com/whyismeleige.png" width="100px;" alt="Piyush" style="border-radius:50%"/><br/>
 
-│   └── seed/                  # Database seeding## 📞 Support
+<sub><b>Piyush</b></sub>│   └── server.routes.js       # /api/v1/server/*
 
-│       ├── index.js
+</a><br/>
 
-│       ├── uploadDummyMaterials.jsHaving issues? We're here to help!
+<sub>Backend Dev</sub>│---
 
-│       ├── uploadDummyUsers.js
+</td>
 
-│       └── uploadStandardEmojis.js- 🐛 [Report a Bug](https://github.com/noturbob/josh-net-app/issues)
+<td align="center">├── scripts/                    # Utility scripts
 
-│- 💡 [Request a Feature](https://github.com/noturbob/josh-net-app/issues)
+<a href="https://github.com/noturbob">
 
-├── services/                   # External service integrations- 📧 Email: 121423408057@josephscollege.ac.in
+<img src="https://github.com/noturbob.png" width="100px;" alt="Bobby" style="border-radius:50%"/><br/>│   └── seed/                  # Database seeding## 📞 Support
+
+<sub><b>Bobby</b></sub>
+
+</a><br/>│       ├── index.js
+
+<sub>Full Stack Dev</sub>
+
+</td>│       ├── uploadDummyMaterials.jsHaving issues? We're here to help!
+
+<td align="center">
+
+<a href="https://github.com/vyshnavi0907">│       ├── uploadDummyUsers.js
+
+<img src="https://github.com/vyshnavi0907.png" width="100px;" alt="Vyshnavi" style="border-radius:50%"/><br/>
+
+<sub><b>Vyshnavi</b></sub>│       └── uploadStandardEmojis.js- 🐛 [Report a Bug](https://github.com/noturbob/josh-net-app/issues)
+
+</a><br/>
+
+<sub>Frontend Dev</sub>│- 💡 [Request a Feature](https://github.com/noturbob/josh-net-app/issues)
+
+</td>
+
+</tr>├── services/                   # External service integrations- 📧 Email: 121423408057@josephscollege.ac.in
+
+</table>
 
 │   ├── email.service.js       # Nodemailer email sending
 
+<br/>
+
 │   └── scraper.service.js     # Puppeteer web scraping---
 
+---
+
 │
+
+## 🎓 Academic Context
 
 ├── sockets/                    # Socket.IO event handlers<div align="center">
 
-│   ├── index.js               # Socket initialization & middleware  <strong>Made with 🎓 for students, by students</strong>
+| | |
 
-│   ├── channel.socket.js      # Channel join/leave events  <br>
+|:--|:--|│   ├── index.js               # Socket initialization & middleware  <strong>Made with 🎓 for students, by students</strong>
 
-│   ├── inbox.socket.js        # Friend request events  <sub>Star ⭐ this repo if you find it helpful!</sub>
+| **Project** | JoshNet - Campus Ecosystem Platform |
+
+| **Course** | BBA IT (Bachelor of Business Administration in IT) |│   ├── channel.socket.js      # Channel join/leave events  <br>
+
+| **Institution** | St. Joseph's Degree & PG College, Hyderabad |
+
+| **Year** | 2025-2026 |│   ├── inbox.socket.js        # Friend request events  <sub>Star ⭐ this repo if you find it helpful!</sub>
+
+| **Type** | Final Year Project |
 
 │   ├── message.socket.js      # Message send/receive events</div>
-│   └── server.socket.js       # Server membership events
+
+<br/>│   └── server.socket.js       # Server membership events
+
 │
-├── tests/                      # Test suites
+
+---├── tests/                      # Test suites
+
 │   ├── jest.config.js         # Jest configuration
-│   └── setup/
+
+## 🙏 Acknowledgments│   └── setup/
+
 │       └── setupTests.js      # Test environment setup
-│
-├── utils/                      # Utility functions
-│   ├── auth.utils.js          # Auth helper functions
-│   ├── s3.utils.js            # S3 file operations
-│   └── prompts/
+
+- **St. Joseph's Degree & PG College** — Guidance and opportunity│
+
+- **React Native & Expo** — Excellent mobile development tools├── utils/                      # Utility functions
+
+- **Anthropic** — Claude AI integration│   ├── auth.utils.js          # Auth helper functions
+
+- **MongoDB & Redis** — Powerful databases│   ├── s3.utils.js            # S3 file operations
+
+- **AWS** — Reliable cloud infrastructure│   └── prompts/
+
 │       └── josephine.prompts.js # AI system prompts
-│
+
+<br/>│
+
 ├── server.js                   # Application entry point
-├── package.json                # Dependencies & scripts
+
+---├── package.json                # Dependencies & scripts
+
 └── .env                        # Environment variables (not in git)
-```
 
-### Frontend Structure
+## 📄 License```
 
-```
+
+
+This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.### Frontend Structure
+
+
+
+<br/>```
+
 frontend/
-├── assets/                     # Static assets (images, fonts)
+
+---├── assets/                     # Static assets (images, fonts)
+
 │
-├── src/
+
+<div align="center">├── src/
+
 │   ├── components/             # Reusable UI components
-│   │   └── ui/
+
+### 🎓 JoshNet V3│   │   └── ui/
+
 │   │       ├── Button.tsx     # Custom button component
-│   │       └── Input.tsx      # Custom input component
+
+*A Final Year Project by BBA IT Students*│   │       └── Input.tsx      # Custom input component
+
 │   │
-│   ├── config/                 # Configuration
+
+**St. Joseph's Degree & PG College, Hyderabad**│   ├── config/                 # Configuration
+
 │   │   └── api.config.ts      # API endpoints & base URL
-│   │
+
+<br/>│   │
+
 │   ├── context/                # React Context providers
-│   │   ├── AuthContext.tsx    # Authentication state
+
+**Made with ❤️ for students, by students**│   │   ├── AuthContext.tsx    # Authentication state
+
 │   │   ├── ServerContext.tsx  # Server/channel state
-│   │   ├── JosephineContext.tsx # AI chat state
+
+<br/>│   │   ├── JosephineContext.tsx # AI chat state
+
 │   │   ├── InboxContext.tsx   # Friends/requests state
-│   │   └── index.ts           # Context exports
+
+⭐ **Star this repo if you find it helpful!** ⭐│   │   └── index.ts           # Context exports
+
 │   │
-│   ├── features/               # Feature modules
+
+<br/>│   ├── features/               # Feature modules
+
 │   │   ├── auth/              # Authentication screens
-│   │   │   ├── LoginScreen.tsx
+
+---│   │   │   ├── LoginScreen.tsx
+
 │   │   │   ├── SignUpScreen.tsx
-│   │   │   ├── OtpScreen.tsx
+
+© 2026 JoshNet Contributors│   │   │   ├── OtpScreen.tsx
+
 │   │   │   ├── ForgotPasswordScreen.tsx
-│   │   │   └── ResetPasswordScreen.tsx
+
+</div>│   │   │   └── ResetPasswordScreen.tsx
+
 │   │   │
 │   │   ├── inbox/             # Inbox feature
 │   │   │   └── InboxScreen.tsx # Friends & requests
